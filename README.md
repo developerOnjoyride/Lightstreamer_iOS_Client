@@ -18,8 +18,6 @@ Follow these simple steps:
 * Click on the "+" button and enter the following repository URL: https://github.com/Lightstreamer/Lightstreamer_iOS_Client.git
 * In the Package Options panel select the "Exact" version rule specifying the latest version, or whatever other rule you consider appropriate.
 * Once completed, add the framework in the appropriate targets of your project.
-* In the target's Build Phases page, also add the following libraries in the Link Binary With Libraries section:
-  SystemConfiguration.framework, Security.framework, libiconv
 * Finally, add the following import line wherever you need the client library's services:
     
   ```
