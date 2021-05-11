@@ -30,7 +30,7 @@ Check the [Client library repository](https://github.com/Lightstreamer/Lightstre
 
 If Swift Package Manager is not for you, you can still install the library more traditionally by following these steps:
 
-* Download the iOS client library's distribution from [our website](https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.1/ls-ios-client-4.3.1.zip).
+* Download the iOS client library's distribution from [our website](https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.2/ls-ios-client-4.3.2.zip).
 * Unzip the library's distribution and copy the framework inside your project.
 * Once completed, add the framework in the appropriate targets of your project.
 * In the target's Build Phases page, also add the following libraries in the Link Binary With Libraries section:
