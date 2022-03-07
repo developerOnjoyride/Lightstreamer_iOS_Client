@@ -24,13 +24,11 @@ Follow these simple steps:
   #import <Lightstreamer_iOS_Client/Lightstreamer_iOS_Client.h>
   ```
 
-Check the [Client library repository](https://github.com/Lightstreamer/Lightstreamer_iOS_Client) for any newer version.
-
 ## Importing the Library Traditionally
 
 If Swift Package Manager is not for you, you can still install the library more traditionally by following these steps:
 
-* Download the iOS client library's distribution from [our website](https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.2/ls-ios-client-4.3.2.zip).
+* Download the iOS client library's distribution from [our website](https://lightstreamer.com/res/ls-ios-client/4.3.2/lib/ls-ios-client-4.3.2.zip).
 * Unzip the library's distribution and copy the framework inside your project.
 * Once completed, add the framework in the appropriate targets of your project.
 * In the target's Build Phases page, also add the following libraries in the Link Binary With Libraries section:
@@ -40,5 +38,3 @@ If Swift Package Manager is not for you, you can still install the library more 
   ```
   #import <Lightstreamer_iOS_Client/Lightstreamer_iOS_Client.h>
   ```
-
-Check the [download site](https://www.lightstreamer.com/repo/cocoapods/ls-ios-client) for any newer version.
