@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.2/ls-ios-client-4.3.2.zip" }
   # spec.source_files  = "Lightstreamer_iOS_Client.xcframework/**/*.h"
-  spec.ios.vendored_frameworks = "Lightstreamer_iOS_Client.xcframework"
+  spec.vendored_xcframeworks = "Lightstreamer_iOS_Client.xcframework"
   spec.frameworks = "Security", "SystemConfiguration"
   spec.libraries = "iconv"
   spec.requires_arc = true
