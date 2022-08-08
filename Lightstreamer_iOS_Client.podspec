@@ -22,10 +22,11 @@ Pod::Spec.new do |spec|
   spec.author             = { "Lightstreamer": "support@lightstreamer.com" }
   spec.social_media_url   = "https://twitter.com/lightstreamer"
   spec.platform     = :ios, "9.0"
-  spec.source       = { :http => "https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.2/ls-ios-client-4.3.2.zip" }
-  spec.preserve_paths =  'Lightstreamer_iOS_Client.xcframework'
-  spec.vendored_frameworks = "Lightstreamer_iOS_Client.xcframework"
-  spec.source_files  = "Lightstreamer_iOS_Client.xcframework/**/*.h"
+  spec.source       = { :http => "https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.2/ls-ios-client-4.3.2.zip",
+                        :type => "zip" }
+  # spec.preserve_paths =  'Lightstreamer_iOS_Client.xcframework/*'
+  spec.vendored_frameworks = 'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework'
+  # spec.source_files  = 'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework/**/*.h'
   spec.frameworks = "Security", "SystemConfiguration"
   spec.libraries = "iconv"
   spec.requires_arc = true
