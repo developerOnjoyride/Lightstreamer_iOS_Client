@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://twitter.com/lightstreamer"
   spec.platform     = :ios
   spec.ios.deployment_target = '9.0'
-  spec.source       = { :http => "https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.2/ls-ios-client-4.3.2.zip" }
+  spec.source       = { :http => "https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/#{spec.version.to_s}/ls-ios-client-#{spec.version.to_s}.zip" }
   # spec.preserve_paths = [
   #   'ls-ios-client-' + spec.version.to_s + '/**/*.*'
   # ]
@@ -31,12 +31,9 @@ Pod::Spec.new do |spec|
   #   'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework'
   # ]
   spec.preserve_paths = [
-    '*.*',
     '**/*.*'
   ]
-  spec.vendored_frameworks = [
-    'Lightstreamer_iOS_Client.xcframework'
-  ]
+  spec.vendored_framework = 'Lightstreamer_iOS_Client.xcframework'
   # spec.source_files  = 'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework/**/*.h'
   # spec.frameworks = "Security", "SystemConfiguration"
   # spec.libraries = "iconv"
