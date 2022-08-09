@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   #   'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework'
   # ]
   spec.preserve_paths = [
-    '/**/*.*'
+    '**/*.*'
   ]
   spec.vendored_frameworks = [
     'Lightstreamer_iOS_Client.xcframework'
