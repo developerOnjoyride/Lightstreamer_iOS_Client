@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
     '**/*.*'
   ]
   spec.vendored_frameworks = [
-    'Lightstreamer_iOS_Client.xcframework'
+    'ls-ios-client-4.3.2/Lightstreamer_iOS_Client.xcframework'
   ]
   # spec.source_files  = 'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework/**/*.h'
   spec.frameworks = "Security", "SystemConfiguration"
