@@ -23,7 +23,7 @@
       spec.social_media_url   = "https://twitter.com/lightstreamer"
       spec.platform     = :ios
       spec.ios.deployment_target = '9.0'
-      spec.source       = { :http => "https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/#{spec.version.to_s}/ls-ios-client-#{spec.version.to_s}.zip" }
+      spec.source       = { :http => "https://sdk.lightstreamer.com/ls-ios-client/#{spec.version.to_s}/lib/ls-ios-client-#{spec.version.to_s}.zip" }
       # spec.vendored_frameworks = [
       #   'Lightstreamer_iOS_Client.xcframework'
       # ]
