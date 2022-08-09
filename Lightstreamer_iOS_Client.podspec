@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
     'Lightstreamer_iOS_Client.xcframework'
   ]
   # spec.source_files  = 'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework/**/*.h'
-  spec.frameworks = "Security", "SystemConfiguration"
-  spec.libraries = "iconv"
+  # spec.frameworks = "Security", "SystemConfiguration"
+  # spec.libraries = "iconv"
   spec.requires_arc = true
 end
