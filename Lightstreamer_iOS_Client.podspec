@@ -1,6 +1,6 @@
     Pod::Spec.new do |spec|
 
-      spec.name         = "Lightstreamer_iOS_Client"
+      spec.name         = "Lightstreamer_iOS_Client1"
       spec.version      = "4.3.2"
       spec.summary      = "Lightstreamer Client for iOS."
       spec.description  = <<-DESC
