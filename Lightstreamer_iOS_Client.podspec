@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://www.lightstreamer.com/repo/cocoapods/ls-ios-client/4.3.2/ls-ios-client-4.3.2.zip",
                         :type => "zip" }
   spec.preserve_paths = [
-    'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework'
+    'ls-ios-client-' + spec.version.to_s + '/**/*.*'
   ]
   spec.vendored_frameworks = [
     'ls-ios-client-' + spec.version.to_s + '/Lightstreamer_iOS_Client.xcframework'
